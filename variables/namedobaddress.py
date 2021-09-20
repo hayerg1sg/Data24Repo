@@ -1,0 +1,10 @@
+print("what is your firstname")
+first_name = input()
+print("what is your lastname")
+last_name = input()
+print("what is your dob")
+dob = input()
+print("what is your address")
+address = input()
+
+print(f"your name is{first_name.upper()} {last_name.upper()} you are born on {dob} and live at {address}")
